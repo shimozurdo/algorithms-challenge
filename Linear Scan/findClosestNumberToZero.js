@@ -22,7 +22,4 @@ var findClosestNumber = function (nums) {
     return closest;
 };
 
-console.log(findClosestNumber([2, -1, 1]))
-// console.log(findClosestNumber([-4, -2, 1, 4, 8]))
-// console.log(findClosestNumber([100000, -100000]))
-// console.log(findClosestNumber([-100000, -100000]))
+module.exports = findClosestNumber;
