@@ -1,7 +1,17 @@
 /**
+Title: Maximum Average Subarray I
+
+Description:
+You are given an integer array nums consisting of n elements, and an integer k.
+
+Find a contiguous subarray whose length is equal to k that has the maximum average value and return this value. Any answer with a calculation error less than 10-5 will be accepted.
+ */
+
+/**
  * @param {number[]} nums
  * @param {number} k
  * @return {number}
+ * Big O complexity: O(n*k)	The nested loops iterate over the array 'nums' with a sliding window of size 'k', resulting in a time complexity of O(n*k), where 'n' is the length of the input array 'nums'.
  */
 var findMaxAverage = function (nums, k) {
     let maxAverage = -Infinity;
@@ -18,6 +28,8 @@ var findMaxAverage = function (nums, k) {
     }
     return maxAverage;
 };
+
+module.exports = findMaxAverage
 
 console.log(findMaxAverage([5], 1));
 console.log(findMaxAverage([4, 0, 4, 3, 3], 5));
