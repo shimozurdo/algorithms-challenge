@@ -25,4 +25,4 @@ var search = function (nums, target) {
     return -1;
 };
 
-console.log(search([2, 5], 5))
+module.exports = search;
