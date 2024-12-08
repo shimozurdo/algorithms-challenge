@@ -17,6 +17,7 @@ Return k.
  * Big O complexity: O(n), The code snippet iterates through the input array 'nums' once, so the time complexity is O(n) where n is the number of elements in the array.
  */
 var removeDuplicates = function (nums) {
+    if (nums.length === 0) return 0;
     let k = 1;
     let duplicate = nums[0];
     for (let i = k; i < nums.length; i++) {
