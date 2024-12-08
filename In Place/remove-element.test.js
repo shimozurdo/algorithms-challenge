@@ -1,4 +1,4 @@
-const removeElement = require("./removeElement");
+const removeElement = require("./remove-element");
 
 describe("Remove Element", () => {
     test("Removes all occurrences of the value and returns the correct count", () => {
