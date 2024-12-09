@@ -15,6 +15,7 @@ The final sorted array should not be returned by the function, but instead be st
  * @param {number[]} nums2
  * @param {number} n
  * @return {void} Do not return anything, modify nums1 in-place instead.
+ * Big O complexity: O((m+n)log(m+n)), The code first merges the two arrays into nums1, which takes O(m+n) time. Then, it sorts the merged array using the built-in sort method, which has a time complexity of O((m+n)log(m+n)). Therefore, the overall time complexity is O((m+n)log(m+n)).
  */
 var merge = (nums1, m, nums2, n) => {
     let i = m;

@@ -1,3 +1,13 @@
+/**
+Title: Merge Two Sorted Lists
+
+Description:
+You are given the heads of two sorted linked lists list1 and list2.
+
+Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
+
+Return the head of the merged linked list.
+*/
 
 function ListNode(val, next) {
     this.val = (val === undefined ? 0 : val)
@@ -8,6 +18,7 @@ function ListNode(val, next) {
  * @param {ListNode} list1
  * @param {ListNode} list2
  * @return {ListNode}
+ * Big O complexity: O(n), The time complexity of this code is O(n) where n is the total number of nodes in both input lists. The code iterates through both lists once and merges them in sorted order.
  */
 var mergeTwoLists = function (list1, list2) {
     let placeholder = new ListNode();
@@ -26,16 +37,8 @@ var mergeTwoLists = function (list1, list2) {
         tail.next = list1;
     if (list2)
         tail.next = list2;
-    
+
     return placeholder.next;
 };
 
-let list1 = new ListNode(1);
-list1.next = new ListNode(2);
-list1.next.next = new ListNode(4);
-
-let list2 = new ListNode(1);
-list2.next = new ListNode(3);
-list2.next.next = new ListNode(4);
-
-console.log(mergeTwoLists(list1, list2))
+module.exports = { mergeTwoLists, ListNode }

@@ -11,6 +11,7 @@
 - [Binary Search](/Binary%20Search/binarySearch.js)
 - [Recursive Binary Search](/Binary%20Search/recursiveBinarySearch.js)
 - [Majority Element](/Boyer-Moore%20Voting%20Algorithm/majority-element.js)
+- [Merge Two Sorted Lists](/Two%20Pointers/merge-two-sorted-lists.js)
 
 ![](/Big%20O%20Classes.png#center)
 
