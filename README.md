@@ -11,6 +11,7 @@
 - [Maximum Average Subarray I](/Sliding%20Window%20Pattern/findMaxAverage.js)
 - [Binary Search](/Binary%20Search/binarySearch.js)
 - [Recursive Binary Search](/Binary%20Search/recursiveBinarySearch.js)
+- [Best Time to Buy and Sell Stock](/Two%20Pointers/best-time-to-buy-and-sell-stock.js)
 - [Majority Element](/Boyer-Moore%20Voting%20Algorithm/majority-element.js)
 - [Merge Two Sorted Lists](/Two%20Pointers/merge-two-sorted-lists.js)
 
