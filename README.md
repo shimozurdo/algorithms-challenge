@@ -9,6 +9,7 @@
 - [Maximum Average Subarray I](/Sliding%20Window%20Pattern/findMaxAverage.js)
 - [Binary Search](/Binary%20Search/binarySearch.js)
 - [Recursive Binary Search](/Binary%20Search/recursiveBinarySearch.js)
+- [Majority Element](/Boyer-Moore%20Voting%20Algorithm/majority-element.js)
 
 ![](/Big%20O%20Classes.png#center)
 
