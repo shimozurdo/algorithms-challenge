@@ -1,6 +1,6 @@
 const maxSubArray = require('./maximum-subarray');
 
-describe("findClosestNumber", () => {
+describe("Maximum Subarray", () => {
     test('Single positive number', () => {
         expect(maxSubArray([1])).toBe(1);
     });
