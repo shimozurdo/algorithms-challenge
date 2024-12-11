@@ -1,15 +1,5 @@
-const { mergeTwoLists, ListNode } = require('./merge-two-sorted-lists'); 
-
-function arrayToListNode(arr) {
-    if (arr.length === 0) return null;
-    let head = new ListNode(arr[0]);
-    let current = head;
-    for (let i = 1; i < arr.length; i++) {
-        current.next = new ListNode(arr[i]);
-        current = current.next;
-    }
-    return head;
-}
+const mergeTwoLists = require('./merge-two-sorted-lists');
+const { arrayToListNode } = require('../utils/misc');
 
 function listNodeToArray(list) {
     const result = [];

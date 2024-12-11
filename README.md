@@ -16,6 +16,7 @@
 - [Best Time to Buy and Sell Stock](/Two%20Pointers/best-time-to-buy-and-sell-stock.js)
 - [Majority Element](/Boyer-Moore%20Voting%20Algorithm/majority-element.js)
 - [Merge Two Sorted Lists](/Two%20Pointers/merge-two-sorted-lists.js)
+- [Sort Linked Lists](/Sort%20List/sort-linked-list.js)
 - [Maximum Subarray](/Kadanes%20Algorithm/maximum-subarray.js)
 
 ![](/Big%20O%20Classes.png#center)

@@ -1,3 +1,4 @@
+const { ListNode } = require("../utils/misc");
 /**
 Title: Merge Two Sorted Lists
 
@@ -9,10 +10,6 @@ Merge the two lists into one sorted list. The list should be made by splicing to
 Return the head of the merged linked list.
 */
 
-function ListNode(val, next) {
-    this.val = (val === undefined ? 0 : val)
-    this.next = (next === undefined ? null : next)
-}
 
 /**
  * @param {ListNode} list1
@@ -41,4 +38,4 @@ var mergeTwoLists = function (list1, list2) {
     return placeholder.next;
 };
 
-module.exports = { mergeTwoLists, ListNode }
+module.exports = mergeTwoLists;
