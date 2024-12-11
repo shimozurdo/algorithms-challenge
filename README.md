@@ -1,6 +1,7 @@
 # Algorithms Challenge
 
-- [Sort Colors](/In%20Place/Bubble%20Sort/sort-colors.js)
+- [Sort Colors (Bubble Sort)](/Sort%20List/Bubble%20Sort/sort-colors.js)
+- [Sort an Array (Quick Sort)](/Sort%20List/Quick%20Sort/sort-an-array.js)
 - [Merged Sorted Array](/Two%20Pointers/merge-sorted-array.js)
 - [Rotate Array](/Two%20Pointers/Modulo%20Arithmetic/rotate-array.js)
 - [Remove Element](/In%20Place/remove-element.js)
