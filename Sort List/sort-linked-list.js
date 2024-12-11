@@ -1,3 +1,4 @@
+const mergeTwoLists = require("../Two Pointers/merge-two-sorted-lists");
 const { ListNode } = require("../utils/misc");
 /**
 Title: Sort List
@@ -22,7 +23,7 @@ var sortList = function (head) {
     left = sortList(left);
     right = sortList(right);
     // merge lists
-    return mergeLists(left, right)
+    return mergeTwoLists(left, right)
 };
 
 var getMidList = (head) => {
@@ -35,26 +36,6 @@ var getMidList = (head) => {
     let mid = slow.next; // right 
     slow.next = null;
     return mid;
-}
-
-var mergeLists = (list1, list2) => {
-    let placeholder = tail = new ListNode();
-
-    while (list1 && list2) {
-        if (list1.val < list2.val) {
-            tail.next = list1;
-            list1 = list1.next;
-        } else {
-            tail.next = list2;
-            list2 = list2.next;
-        }
-        tail = tail.next;
-    }
-    if (list1)
-        tail.next = list1;
-    if (list2)
-        tail.next = list2
-    return placeholder.next;
 }
 
 module.exports = sortList;
