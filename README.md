@@ -6,6 +6,7 @@
 - [Rotate Array](/Two%20Pointers/Modulo%20Arithmetic/rotate-array.js)
 - [Remove Element](/In%20Place/remove-element.js)
 - [Remove Duplicates from Sorted Array](/In%20Place/remove-duplicates-from-sorted-array.js)
+- [Remove Duplicates from Sorted Array II](/In%20Place/remove-duplicates-from-sorted-array-ii.js)
 - [Find Closest Number to Zero](/Linear%20Scan/findClosestNumberToZero.js)
 - [Two Sum](/Hash%20Map/twoSum.js)
 - [Palindrome Number](/Two%20Pointers/isPalindromeNumber.js)
