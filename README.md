@@ -19,6 +19,7 @@
 - [Merge Two Sorted Lists](/Two%20Pointers/merge-two-sorted-lists.js)
 - [Sort Linked Lists](/Sort%20List/sort-linked-list.js)
 - [Maximum Subarray](/Kadanes%20Algorithm/maximum-subarray.js)
+- [Rotate Image (Array)](/In%20Place/rotate-image.js)
 
 ![](/Big%20O%20Classes.png#center)
 
