@@ -18,16 +18,13 @@ Only the filled cells need to be validated according to the mentioned rules.
  * @return {boolean}
  * Big O complexity: O(n^2), The code contains nested loops that iterate over the entire board, resulting in a time complexity of O(n^2), where n is the size of the board.
  */
-var isValidSudoku = function (board) {
-    let numbersRow = "";
-    let numersCol = "";
-    let numersSubBox = "";
+var isValidSudoku = function (board) {    
     let subBoxRow = 0;
     let subBoxCol = 0;
     for (let i = 0; i < board.length; i++) {
-        numbersRow = "";
-        numersCol = "";
-        numersSubBox = "";
+        let numbersRow = "";
+        let numersCol = "";
+        let numersSubBox = "";
         for (let j = 0; j < board.length; j++) {
             const elementRow = board[i][j];
             const elementCol = board[j][i];

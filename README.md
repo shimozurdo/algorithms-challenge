@@ -6,6 +6,7 @@
 - [Valid Sudoku](/Linear%20Scan/valid-sudoku.js)
 - [Rotate Array](/Two%20Pointers/Modulo%20Arithmetic/rotate-array.js)
 - [Remove Element](/In%20Place/remove-element.js)
+- [Ransom Note](/Hash%20Map/ransom-note.js)
 - [Remove Duplicates from Sorted Array](/In%20Place/remove-duplicates-from-sorted-array.js)
 - [Remove Duplicates from Sorted Array II](/In%20Place/remove-duplicates-from-sorted-array-ii.js)
 - [Find Closest Number to Zero](/Linear%20Scan/findClosestNumberToZero.js)
