@@ -14,6 +14,7 @@
 - [Palindrome Number](/Two%20Pointers/isPalindromeNumber.js)
 - [Valid Palindrome](/Two%20Pointers/valid-palindrome.js)
 - [Maximum Average Subarray I](/Sliding%20Window%20Pattern/findMaxAverage.js)
+- [Three Sum](/Two%20Pointers/3sum.js)
 - [Binary Search](/Binary%20Search/binarySearch.js)
 - [Recursive Binary Search](/Binary%20Search/recursiveBinarySearch.js)
 - [Best Time to Buy and Sell Stock](/Two%20Pointers/best-time-to-buy-and-sell-stock.js)

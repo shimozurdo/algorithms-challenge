@@ -24,6 +24,8 @@ var canConstruct = function (ransomNote, magazine) {
             if (map.get(m) === 0)
                 map.delete(m);
         }
+        if(map.size === 0)
+            return true;
     }
     return map.size > 0 ? false : true;
 };
